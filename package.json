@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "tsx watch src/server.ts"
   },
-  "author": "Gabriel Bertaglia",
+  "author": "Rômulo Alexandre",
   "license": "ISC",
   "description": "Criando API REST com Node.js",
   "devDependencies": {
