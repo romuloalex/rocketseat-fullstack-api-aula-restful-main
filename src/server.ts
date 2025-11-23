@@ -27,7 +27,7 @@ app.use((error: any, request: Request, response: Response, _: NextFunction) => {
       .json({ message: "Validation error.", issues: error.format() });
     return;
   }
-
+  
   // Erro genérico não tratado
   response.status(500).json({ message: error.message });
 });
